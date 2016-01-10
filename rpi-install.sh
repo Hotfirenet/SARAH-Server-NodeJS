@@ -1,3 +1,4 @@
+#!/bin/sh
 #By Hotfirenet
 
 # Update & upgrade package
@@ -8,7 +9,7 @@ sudo apt-get install -y build-essential git
 
 # Installing Node.js
 
-If RPI A, B, B+
+#If RPI A, B, B+
 wget https://nodejs.org/dist/v4.2.4/node-v4.2.4-linux-armv6l.tar.gz
 tar -xvf node-v4.2.4-linux-armv6l.tar.gz
 cd node-v4.2.4-linux-armv6l
